@@ -1,0 +1,19 @@
+# Build output
+build/
+bin/
+obj/
+
+# Debug / temporary files
+*.log
+*.tmp
+*.pdb
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Editor backups
+*~
+*.swp
