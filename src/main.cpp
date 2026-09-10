@@ -6,6 +6,16 @@ BOOL APIENTRY DllMain(
     LPVOID reserved
 )
 {
+    if (reason == DLL_PROCESS_ATTACH)
+    {
+        MessageBoxA(
+            nullptr,
+            "WYPR.dll loaded successfully!",
+            "WYPR",
+            MB_OK | MB_ICONINFORMATION
+        );
+    }
+
     return TRUE;
 }
 
